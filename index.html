@@ -44,3 +44,13 @@ return ( <div className="min-h-screen bg-gradient-to-b from-sky-200 to-sky-500 f
         <p className="mt-3 text-white text-lg font-semibold text-center">
           {language === "EN" ? "Jar of 100 cubes" : "የ100 ኩቦች ታር
 
+        <motion.div
+          className="w-40 h-40 rounded-full bg-red-500 flex items-center justify-center shadow-xl"
+          animate={{ rotate: [0, 10, -10, 0] }}
+          transition={{ repeat: Infinity, duration: 2 }}
+        >
+          <span className="text-white font-bold text-xl">100</span>
+        </motion.div>
+        <p className="mt-3 text-white text-lg font-semibold text-center">
+          {language === "EN" ? "Jar of 100 cubes" : "የ100 ኩቦች ታር
+
